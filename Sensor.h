@@ -8,6 +8,6 @@ protected:
 
 public:
 	Sensor();
-	Sensor(std::string new_comunication_channel) : std::string new_comunication_channel{""};
+	Sensor(std::string new_comunication_channel) : std::string new_comunication_channel ("");
 	virtual void change_path(std::string new_comunication_channel) = 0;
 };
