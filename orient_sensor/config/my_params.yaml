@@ -1,0 +1,5 @@
+baud_rate: 115200
+read_frequency_hz: 10
+serial_port: "/dev/ttyTHS1"
+max_queue_size: 10
+i2c_port: "/dev/i2c-0"

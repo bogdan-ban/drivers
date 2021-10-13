@@ -1,0 +1,7 @@
+<launch>
+	
+	<rosparam file="$(find orient_sensor)/config/my_params.yaml" />
+
+	<node name="data_collector_node" pkg="orient_sensor" type="data_collector_node" />
+	
+</launch>
